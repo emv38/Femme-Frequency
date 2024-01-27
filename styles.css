@@ -45,7 +45,19 @@
 
 .about-text {
     flex: .8;
+    justify-content: end;
     align-self: center;
     margin-left: auto;
+}
+
+
+#stats {
+    display: flex;
+    text-align: left;
+    padding: 3rem;
+}
+
+.stats-text {
+    justify-content: end;
 }
 
