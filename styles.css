@@ -34,6 +34,18 @@
 
 .learn-more a:hover {
     transform: scale(1.1);
-    letter-spacing: .1rem; ;
+    letter-spacing: .1rem;
+}
+
+#about {
+    display: flex;
+    text-align: left;
+    padding: 3rem;
+}
+
+.about-text {
+    flex: .5;
+    align-self: center;
+    margin-left: auto;
 }
 
