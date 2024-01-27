@@ -1,0 +1,41 @@
+.project-title  {
+    border: 2px black solid;
+    padding: 1rem;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#intro p,h1 {
+    text-align: center;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.learn-more a {
+    justify-content: center;
+    border: 1.5px #8B8B8B solid;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-family: 'Poppins' , sans-serif;
+    color: #000;
+    transition: all 0.3s;
+}
+
+.learn-more a :hover {
+    transform: scale(1.1);
+    letter-spacing: .1rem;
+    box-shadow: 0 0 20px #D29BFD;
+    z-index: 0;
+}
+
