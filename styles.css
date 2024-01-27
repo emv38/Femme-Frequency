@@ -32,10 +32,8 @@
     transition: all 0.3s;
 }
 
-.learn-more a :hover {
+.learn-more a:hover {
     transform: scale(1.1);
-    letter-spacing: .1rem;
-    box-shadow: 0 0 20px #D29BFD;
-    z-index: 0;
+    letter-spacing: .1rem; ;
 }
 
