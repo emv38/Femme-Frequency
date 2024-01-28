@@ -14,6 +14,10 @@
     text-align: center;
 }
 
+#italics {
+    font-style: italic;
+}
+
 .learn-more {
     display: flex;
     align-items: center;
@@ -51,13 +55,19 @@
 }
 
 
-#stats {
+#impact {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     text-align: left;
     padding: 3rem;
 }
 
 .stats-text {
-    justify-content: end;
+
 }
+
+
+
+
 
