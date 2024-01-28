@@ -75,6 +75,15 @@
     color: #335942;
 }
 
+.impact-right {
+    flex: 1;
+    text-align: right;
+}
+
+.impact-image {
+    width: 100%;
+    height: auto;
+}
 
 /* added styling for the chatbot container & form */
 .chatbot-container {
