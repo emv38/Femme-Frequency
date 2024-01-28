@@ -66,11 +66,6 @@
     width: 50%;
 }
 
-.impact-right {
-    flex: 1;
-    text-align: right;
-}
-
 .stats-text a{
     color: #61AD80;
     transition: all .3s;
@@ -80,17 +75,58 @@
     color: #335942;
 }
 
-.impact-image {
-    width: 100%;
-    height: auto;
-    justify-content: flex-end;
+
+/* added styling for the chatbot container & form */
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;   
+    border: 1.5px #8B8B8B solid;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    margin: auto;         
+    max-width: 800px;     
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    transition: all 0.3s;
 }
 
-.impact-image img {
-    
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;   
+    margin: auto;         
+    max-width: 400px;     
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    transition: all 0.3s; 
 }
 
+#userInputForm input[type="submit"] {
+    justify-content: center;
+    border: 1.5px #8B8B8B solid;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-family: 'Poppins' , sans-serif;
+    color: #000;
+    transition: all 0.3s;
+}
 
-
+#userInputForm input[type="submit"]:hover {
+    justify-content: center;
+    border: 1.5px #8B8B8B solid;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-family: 'Poppins' , sans-serif;
+    color: #000;
+    transition: all 0.3s;
+}
 
 

@@ -3,77 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="global.css">
-    <link rel = "stylesheet" href="styles.css">
-    <!--Poppins font-->
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Poppins font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Femme Frequency</title>
 </head>
-
-<div class="header-container">
-    
-    <div class="navbar">
-        <ul>
-            <li><a href="#intro">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#impact">Impact</a></li>
-            <li><a href="#discover">Discover</a></li>
-        </ul>
-    </div>
-
-</div>
-
 <body>
 
-    <section id="intro">
+    <div class="header-container">
+        <div class="navbar">
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#chatbot-container">Discover</a></li>
+            </ul>
+        </div>
+    </div>
 
+    <section id="intro">
         <div class="welcome-container">
             <h1>Welcome to</h1>
             <div class="project-title">
-                <!--project name with specific font?-->
+                <!-- Project name with specific font? -->
                 <h1>Femme Frequency</h1>
             </div>
-            <p id="italics">A digital space to uplift Women and non-binary artists</p>
+            <!--changed it from women to non-male to be gender neutral, lmk if thats okay-->
+            <p id="italics">A digital space to uplift non-male and non-binary artists</p>
             <div class="learn-more">
                 <a href="#about">Learn more</a>
             </div>
         </div>
-
     </section>
 
     <section id="about">
-
         <h1>About</h1>
         <div class="about-text reveal">
-            <p>Our mission is to create a space where everyone can discover, connect, and be inspired by the incredible albums crafted by women artists and those from underrepresented backgrounds.</br></br>Tired of the same old playlists? Are Spotify's curated playlists becoming a bit too repetitive? Femme Frequency introduces a unique approach to music discovery. Simply tell us your mood, and we'll curate a personalized selection of albums that not only match your feelings but also showcase the rich and diverse sounds from underrepresented, lesser known artists.</p>
+            <p>Our mission is to create a space where everyone can discover, connect, and be inspired by the incredible albums crafted by women artists and those from underrepresented backgrounds.</br></br>Tired of the same old playlists? Are Spotify's curated playlists becoming a bit too repetitive? Femme Frequency introduces a unique approach to music discovery. Simply tell us your mood, and we'll curate a personalized selection of albums that not only match your feelings but also showcase the rich and diverse sounds from underrepresented, lesser-known artists.</p>
         </div>
     </section>
 
+    <!--added quotations on the stats bc i direct copied that from website-->
     <section id="impact">
         <div class="impact-left">
             <h1>Impact</h1> 
             <div class="stats-text reveal">
                 <p>Why do we need Femme Frequency?
-                    ArtRevi's 2018 Power 100 list of the “most influential people in the contemporary art world” included 40% women—a slight improvement from 2017 (38%) and 2016 (32%). <a href="https://aamd.org/our-members/from-the-field/gender-gap-report-2017" target="_blank">(Review)</a> 
+                    "ArtRevi's 2018 Power 100 list of the “most influential people in the contemporary art world” included 40% women—a slight improvement from 2017 (38%) and 2016 (32%)". <a href="#" target="_blank">(Review)</a> 
                     </br></br>
-                    The NEA found that as women artists age, they earn progressively less than their male artist counterparts. Women artists aged 55-64 earn only 66¢ for each $1 earned by men. <a href="https://www.arts.gov/impact/research/publications/artists-and-other-cultural-workers-statistical-portrait" target="_blank">(National Endowment for the Arts)</a>
+                    "The NEA found that as women artists age, they earn progressively less than their male artist counterparts. Women artists aged 55-64 earn only 66¢ for each $1 earned by men." <a href="https://www.arts.gov/impact/research/publications/artists-and-other-cultural-workers-statistical-portrait" target="_blank">(National Endowment for the Arts)</a>
                     </br></br>
                     Women and feminine bodies have been creating and producing art since the beginning of time. It's time we start paying attention.
                 </p>
             </div>
         </div>
-        <div class="impact-right reveal">
-            <div class="impact-image">
-                <img src="IMG/impact.png">
+        <div class="impact-right">
+        </div>
+    </section>
+
+    <!--added section for user input, the button currently doesn't go to anything yet-->
+    <section id="chatbot-container">
+        <div class="chatbot-container">
+            <h1>A Mood Ring for Your Music</h1> 
+            <form id="userInputForm">
+                <label for="userInput">I'm feeling...</label>
+                <input type="text" id="userInput" name="userInput">
+                <input type="submit" value="Find Your Albums">
+            </form>
+            <div class="form">
             </div>
         </div>
-            </section>
-
-    <section id="discover">
-        
     </section>
-    
-    <script src="script.js"></script>
 
+    <script src="script.js"></script>
 </body>
 </html>
