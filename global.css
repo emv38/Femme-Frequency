@@ -1,3 +1,5 @@
+@import url(https://db.onlinewebfonts.com/c/a37922cddbb831f8955c2b9f177ce02b?family=Monarcha+W01+Regular);
+
 
 * {
     box-sizing: border-box;
@@ -66,8 +68,8 @@ section {
 
 h1 {
     font-size: 4em;
-    font-weight: 400;
-    font-family: 'Poppins' , sans-serif;
+    font-weight: 500;
+    font-family: "Monarcha W01 Regular";
 }
 
 p {
