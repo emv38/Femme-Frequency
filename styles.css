@@ -1,5 +1,6 @@
 .project-title  {
-    border: 2px black solid;
+    border: 1.5px #8B8B8B solid;
+    border-radius: 20px;
     padding: 1rem;
 }
 
@@ -26,16 +27,19 @@
 
 .learn-more a {
     justify-content: center;
-    border: 1.5px #8B8B8B solid;
+    border: 1.5px transparent;
     border-radius: 20px;
     padding: 0.5em 1em;
     text-decoration: none;
     font-family: 'Poppins' , sans-serif;
     color: #000;
     transition: all 0.3s;
+    background-color: #61AD80;
 }
 
 .learn-more a:hover {
+    background-color: transparent;
+    border: 1.5px #61AD80 solid;
     transform: scale(1.1);
     letter-spacing: .1rem;
 }
