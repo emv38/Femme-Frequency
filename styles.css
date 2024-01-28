@@ -11,7 +11,6 @@
 
 
 #intro p,h1 {
-    text-align: center;
 }
 
 #italics {
@@ -57,14 +56,23 @@
 
 #impact {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     text-align: left;
     padding: 3rem;
+    text-align: left;
 }
 
-.stats-text {
+.impact-left{
+    flex-direction: column;
+    width: 50%;
+}
 
+.stats-text a{
+    color: #61AD80;
+    transition: all .3s;
+}
+
+.stats-text a:hover {
+    color: #335942;
 }
 
 
