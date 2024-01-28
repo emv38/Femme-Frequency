@@ -66,6 +66,11 @@
     width: 50%;
 }
 
+.impact-right {
+    flex: 1;
+    text-align: right;
+}
+
 .stats-text a{
     color: #61AD80;
     transition: all .3s;
@@ -73,6 +78,16 @@
 
 .stats-text a:hover {
     color: #335942;
+}
+
+.impact-image {
+    width: 100%;
+    height: auto;
+    justify-content: flex-end;
+}
+
+.impact-image img {
+    
 }
 
 

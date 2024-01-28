@@ -38,7 +38,7 @@ html {
 }
 
 .navbar a:hover {
-    border-color: white;
+   /* border-color: white; */
     background-color: white;
 }
 
@@ -75,6 +75,7 @@ h1 {
 p {
     font-size: 1em;
     font-family: 'Poppins' , sans-serif;
+    line-height: 1.5em;
 }
 
 .reveal {
